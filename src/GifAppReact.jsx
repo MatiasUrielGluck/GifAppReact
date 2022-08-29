@@ -12,7 +12,7 @@ export const GifAppReact = () => {
     )
       return;
 
-    setCategories([...categories, newCategory]);
+    setCategories([newCategory, ...categories]);
   };
 
   return (
